@@ -3,7 +3,7 @@ require 'open-uri'
 require 'pry'
 
 module YcombSlack
-  class ResponseHandler
+  class YcombinatorHandler
 
     attr_accessor :doc, :target_elem
 
