@@ -2,7 +2,7 @@
 
 Gem to post the latest news.ycombinator post to slack!
 
-YcombSlack is pretty dumb at moment, but it is getting more intelligent with each commit.
+YcombSlack is pretty dumb at moment, but it is getting more intelligent.. slowly
 
 ## Installation
 
