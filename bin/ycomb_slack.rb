@@ -2,6 +2,6 @@
 
 require 'ycomb_slack'
 
-xml_handler = YcombSlack::XmlHandler.new
+response_handler = YcombSlack::ResponseHandler.new
 
-puts xml_handler.xml_string
+puts response_handler.doc
