@@ -1,6 +1,8 @@
 # YcombSlack
 
-TODO: Write a gem description
+Gem to post the latest news.ycombinator post to slack!
+
+YcombSlack is pretty dumb at moment, but it is getting more intelligent with each commit.
 
 ## Installation
 
@@ -18,7 +20,18 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Create a ycombinator handler
+
+    ycombinator_handler = YcombSlack::YcombinatorHandler.new
+   
+Create a slack handler
+
+    slack_handler = YcombSlack::SlackHandler.new <incoming_slack_webhook>, ycombinator_handler
+    
+Post to slack chanel
+
+    slack_handler.send_payload
+    
 
 ## Contributing
 
