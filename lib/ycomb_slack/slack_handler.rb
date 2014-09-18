@@ -1,3 +1,5 @@
+require 'json'
+
 module YcombSlack
   class SlackHandler
   
@@ -12,7 +14,7 @@ module YcombSlack
       { channel: "#general",
         username: "news.ycombinator-slack",
         text: "A new post from news.ycombinator.\n
-        <#{response_handler.get_last_post_link}|#{response_handler.get_last_post_title}>" }
+        <#{response_handler.get_last_post_link}|#{response_handler.get_last_post_title}>" }.to_json
     end
 
     def send_payload

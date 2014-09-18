@@ -17,7 +17,7 @@ module YcombSlack
     end
 
     def get_last_post_link
-      elem.attributes["href"].value
+      target_elem.attributes["href"].value
     end
   end
 end
