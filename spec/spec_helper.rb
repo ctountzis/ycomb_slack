@@ -1,0 +1,1 @@
+require 'ycomb_slack'
